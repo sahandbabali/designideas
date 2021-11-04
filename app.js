@@ -16,8 +16,21 @@ let uiuxdesign = {
   ],
 };
 
+let cities = [
+  "تهران",
+  "تبریز",
+  "کرج",
+  "مشهد",
+  "شیراز",
+  "کرمان",
+  "خرمشهر",
+  "کرمانشاه",
+  "زنجان",
+];
+
 let template1 = document.getElementById("temp1");
 let template2 = document.getElementById("temp2");
+let template3 = document.getElementById("temp3");
 
 document.getElementById("newideabutton").addEventListener("click", newidea);
 
@@ -26,5 +39,6 @@ function newidea() {
     uiuxdesign.tarahi[Math.floor(Math.random() * uiuxdesign.tarahi.length)];
   template2.innerHTML =
     uiuxdesign.baraye[Math.floor(Math.random() * uiuxdesign.baraye.length)];
+  template3.innerHTML = cities[Math.floor(Math.random() * cities.length)];
 }
 newidea();
