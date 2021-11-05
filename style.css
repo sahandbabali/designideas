@@ -12,3 +12,10 @@ body {
       color: lightgray;
 }
 
+#backgroundlogo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: lightgray;
+      font-size: 5rem;
+}
