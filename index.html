@@ -108,6 +108,14 @@
                 >
                   <span>ایده جدید <i class="fas fa-redo"></i></span>
                 </button>
+
+                <!-- <button
+                  id="startbutton"
+                  type="button"
+                  class="btn btn-secondary mt-2"
+                >
+                  <span>شروع</span>
+                </button> -->
               </div>
             </div>
           </form>
@@ -119,37 +127,36 @@
     </div>
 
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="modal1"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="modall"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
+    <div id="modal1" class="modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-          <!-- <div class="modal-header">
-            <h5 class="modal-title" id="modall">Modal title</h5>
+          <div class="modal-header">
+            <h5 class="modal-title"></h5>
             <button
               type="button"
-              class="close"
-              data-dismiss="modal"
+              class="btn-close"
+              data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div> -->
+            ></button>
+          </div>
           <div class="modal-body">
-            <p>ایده ساز برای تمرین طراحی شما موضوع تولید می کند</p>
-
+            <p>ایده پران برای تمرین طراحی شما موضوع تولید می کند</p>
             <p>
               برای قفل کردن خطوط روی آیکون<i
                 id="lock1"
                 class="lockgray fas fa-lock-open"
               ></i>
-              کلیک کنید
+              کلیک کنید و دکمه ایده جدید را بزنید تا بقیه خطوط اپدیت شود
             </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              باشه
+            </button>
           </div>
         </div>
       </div>
