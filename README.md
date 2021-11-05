@@ -4,4 +4,4 @@ To do:
 - add locking functionality - done
 - add data and functionality for other ervices
 - add footer
-- a modal or alert for guide
+- a modal or alert for guide -done

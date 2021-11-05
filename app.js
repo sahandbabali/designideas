@@ -136,3 +136,7 @@ function newidea() {
   }
 }
 newidea();
+
+window.addEventListener("load", function () {
+  $("#modal1").modal("toggle");
+});
