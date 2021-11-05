@@ -56,55 +56,65 @@
 
       <!-- end of the nav -->
 
-      <!-- beggining of the idea card -->
-      <div class="card text-dark bg-light mb-3 mt-5">
-        <div class="card-header">ایده طراحی رابط کاربری</div>
-        <div class="card-body">
-          <h3 class="card-text aabi">
-            <i id="lock1" class="lockgray fas fa-lock-open"></i> طراحی
-            <span class="meshki" id="temp1">-</span>
-          </h3>
+      <div class="row">
+        <div class="col"><!-- right padding --></div>
+        <div class="col-12 col-sm-6">
+          <!-- beggining of the idea card -->
+          <div class="card text-dark bg-light mb-3 mt-5">
+            <div class="card-header">ایده طراحی رابط کاربری</div>
+            <div class="card-body">
+              <h3 class="card-text aabi">
+                <i id="lock1" class="lockgray fas fa-lock-open"></i> طراحی
+                <span class="meshki" id="temp1">-</span>
+              </h3>
 
-          <h3 class="card-text aabi">
-            <i id="lock2" class="lockgray fas fa-lock-open"></i> برای
-            <span class="meshki" id="temp2">-</span>
-          </h3>
+              <h3 class="card-text aabi">
+                <i id="lock2" class="lockgray fas fa-lock-open"></i> برای
+                <span class="meshki" id="temp2">-</span>
+              </h3>
 
-          <h3 class="card-text aabi">
-            <i id="lock3" class="lockgray fas fa-lock-open"></i> در
-            <span class="meshki" id="temp3">-</span>
-          </h3>
-        </div>
-      </div>
-
-      <!-- end of the idea card -->
-
-      <!-- start of the form -->
-      <form>
-        <div class="row">
-          <div class="col-12 col-sm-6">
-            <label style="color: white" for="maintopic" class="form-label"
-              >موضوع</label
-            >
-
-            <select
-              id="maintopic"
-              class="form-select"
-              aria-label="Default select example"
-            >
-              <option value="1" selected>طراحی رابط کاربری</option>
-              <option value="2" disabled>طراحی محصول</option>
-              <option value="3" disabled>طراحی گرافیک</option>
-              <option value="3" disabled>طراحی لباس</option>
-            </select>
-            <button id="newideabutton" type="button" class="btn btn-light mt-2">
-              <span>ایده جدید <i class="fas fa-redo"></i></span>
-            </button>
+              <h3 class="card-text aabi">
+                <i id="lock3" class="lockgray fas fa-lock-open"></i> در
+                <span class="meshki" id="temp3">-</span>
+              </h3>
+            </div>
           </div>
-        </div>
-      </form>
 
-      <!-- end of the form -->
+          <!-- end of the idea card -->
+
+          <!-- start of the form -->
+          <form>
+            <div class="row">
+              <div class="">
+                <label style="color: white" for="maintopic" class="form-label"
+                  >موضوع</label
+                >
+
+                <select
+                  id="maintopic"
+                  class="form-select"
+                  aria-label="Default select example"
+                >
+                  <option value="1" selected>طراحی رابط کاربری</option>
+                  <option value="2" disabled>طراحی محصول</option>
+                  <option value="3" disabled>طراحی گرافیک</option>
+                  <option value="3" disabled>طراحی لباس</option>
+                </select>
+                <button
+                  id="newideabutton"
+                  type="button"
+                  class="btn btn-light mt-2"
+                >
+                  <span>ایده جدید <i class="fas fa-redo"></i></span>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- end of the form -->
+        </div>
+        <div class="col"><!-- left padding --></div>
+      </div>
     </div>
 
     <!-- Modal -->
